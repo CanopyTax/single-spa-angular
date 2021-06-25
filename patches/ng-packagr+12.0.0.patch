@@ -1,0 +1,13 @@
+diff --git a/node_modules/ng-packagr/lib/ng-package/entry-point/write-bundles.transform.js b/node_modules/ng-packagr/lib/ng-package/entry-point/write-bundles.transform.js
+index ef9b0a3..e275282 100644
+--- a/node_modules/ng-packagr/lib/ng-package/entry-point/write-bundles.transform.js
++++ b/node_modules/ng-packagr/lib/ng-package/entry-point/write-bundles.transform.js
+@@ -53,7 +53,7 @@ const writeBundlesTransform = (options) => transform_1.transformFromPromise(asyn
+             entry: esm2015,
+             format: 'umd',
+             dest: umd,
+-            transform: downlevel_plugin_1.downlevelCodeWithTsc,
++            //transform: downlevel_plugin_1.downlevelCodeWithTsc,
+         });
+         spinner.succeed();
+     }

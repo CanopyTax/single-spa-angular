@@ -1,7 +1,7 @@
 {
   "$schema": "../node_modules/ng-packagr/ng-package.schema.json",
   "name": "single-spa-angular",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Helpers for building single-spa applications which use Angular 2",
   "schematics": "./schematics/schematics.json",
   "repository": {
